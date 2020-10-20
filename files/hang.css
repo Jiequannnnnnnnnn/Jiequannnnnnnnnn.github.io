@@ -21,5 +21,14 @@ h3 {
     font-weight: 400;
     margin-top: 1.25em;
     margin-bottom: 0.5em;
-    color: #A31F34;
-  }
+    color: #A31F34;}
+  
+
+h4 {
+  font-family:  sans-serif;
+  font-variant: small-caps;
+  font-weight: 300;
+  margin-top: 1.25em;
+  margin-bottom: 0.5em;
+  font-size:23px;
+}
