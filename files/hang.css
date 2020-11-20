@@ -50,13 +50,22 @@ h4 {
 }
 
 .floating_img img {
-  width: 200px;
-  height: 200px;
+/*  width: 200px;
+  height: 200px;*/
+  width: 8vw; 
+  max-width: 100px;
+  height: 8vw; 
+  max-height: 100px;
   position: fixed; 
   top: 500px; 
-  left: 70px
+  left: 40px
 }
-
+.floating_text {
+  font-size: 0.6vw;
+  position: fixed; 
+  top: 500px; 
+  left: 30px
+}
 
 
 /*.profile_img:hover .overlay {
