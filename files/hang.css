@@ -41,3 +41,46 @@ h4 {
  margin-left: auto;
  margin-right: auto;
 }
+
+.right img{
+ text-align:center;
+ display:block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.floating_img img {
+  width: 200px;
+  height: 200px;
+  position: fixed; 
+  top: 500px; 
+  left: 70px
+}
+
+
+
+/*.profile_img:hover .overlay {
+  opacity: 1;
+  display: inline;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
