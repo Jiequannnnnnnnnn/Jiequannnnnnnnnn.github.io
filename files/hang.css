@@ -33,6 +33,21 @@ h4 {
   font-size:23px;
 
 }
+.container img
+{
+ width: 250px;
+ height: 150px;
+ object-fit:scale-down;
+ text-align: center;
+}
+
+.education img
+{
+ width: 250px;
+ height: 150px;
+ object-fit:scale-down;
+ text-align: center;
+}
 
 .centerImage
 {
@@ -42,11 +57,25 @@ h4 {
  margin-right: auto;
 }
 
-.right img{
- text-align:center;
+.top-gif {
+ /*text-align:center;*/
  display:block;
  margin-left: auto;
  margin-right: auto;
+ width: 600px !important;
+ height: 250px !important; 
+ max-width: 60% !important;
+}
+
+
+@media (max-width: 1300px) {
+  .floating_text {
+    display: none;
+  }
+
+  .floating_img {
+    display: none;
+  }
 }
 
 .floating_img img {
@@ -61,13 +90,33 @@ h4 {
   left: 40px
 }
 .floating_text {
-  font-size: 0.6vw;
+  font-size: 15px;
   position: fixed; 
   top: 500px; 
   left: 30px
 }
 
 
+
+
+.education {
+  text-align: center;
+}
+.school{
+  padding-bottom: 15px;
+}
+.school-fig {
+  /*max-width: 36%;*/
+  height: 200;
+  width: 200;
+  padding: 0.5em;
+}
+
+@media (max-width: 767px) {
+  .school-fig {
+    max-width: 48%;
+  }
+}
 /*.profile_img:hover .overlay {
   opacity: 1;
   display: inline;
